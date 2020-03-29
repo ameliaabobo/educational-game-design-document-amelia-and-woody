@@ -124,30 +124,32 @@ Trash(List of disposable and non-disposable trash)
 
 ## Core Gameplay Mechanics (Detailed)
 
-- *Core Gameplay Mechanic #1*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #2*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #3*: *Describe in 2 paragraphs or less, along with how it generally works*
+- Different Trash type will be randomly generated from the list at the edge of the screen.
+- Vertical/Horizontal river flow by the animation of screen tilting.
+- Mouse activates trash picker with left/right click
+- Keyboard controlled robot that can move along the beach sid by pressing left/right arrow
+- Points increment/decrement on objects.
 
     
 ## Feedback
 
-*Explicitly describe what visual/audio/animation indicators there are that give players feedback on their progress towards their gameplay objectives (and ideally the learning objectives).*
-
-*Describe what longer-term feedback you detect and give that guides the player in their learning and lets them know how they are doing in regards to the learning objectives.*
+Player can clearly see points add/deduct from the score board in the screen. Right/Wrong click will also turn your trash picker into green/red for seconds.
+The time will also be shown on the screen to display remaining time.
 
 # Story and Gameplay
 
 ## Presentation of Rules
 
-*Briefly describe how the player will learn the gameplay mechanics. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching mechanics iteratively and slowly.*
+The game will provide tutorial and explain each key's function and mouse function. It will also give demo about fish/trash identification.
 
 ## Presentation of Content
 
-*Briefly describe how the player will be taught the core material they are meant to learn. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching material iteratively and slowly.*
+Once the wrong trash has been picked up, game will prompt a knowledge about why this should/shouldn't be considered in this category. 
 
 ## Story (Brief)
 
-*The Summary or TL;DR version of below*
+Delaware Estuary is a beautiful place. Recently, many reports said that the environment problem is becoming increasingly severe. We need to think a way to protect
+our estuary and the adorable sea creature!
 
 ## Storyboarding
 
@@ -157,22 +159,30 @@ Trash(List of disposable and non-disposable trash)
 
 ## Aethestics
 
-*Give a sense of the aesthetics of your game, the spirit and atmosphere. Use descriptive, evocative words that can help the reader understand the emotional response of your game.*
+Game will be using many Cartoon objects and animations, kids will be happy to see many cute fishes and cool trash icon.
 
 ## Graphical
 
 - Characters List
-  - *Characters 1*
-  - *Characters 2*
-  - *...*
+  - Robot
+  - trash picker
+  - Fish_small
+  - Fish_big
+  - trash_plastic
+  - trash_metal
+  - trash_bag
+  - trash_battery
+  - trash_..(to be added)
+  - danger_shark
+  - danger_submarine
+  - danger_..(to be added)
 - Textures:
-  - *Texture 1*
-  - *Texture 2*
-  - *...*
+  - robot texture
+  - trash picker texture
 - Environment Art/Textures:
-  - *Environment Texture 1*
-  - *Environment Texture 2*
-  - *...*
+  - beach
+  - sand
+  - sea
 
 
 ## Audio
@@ -181,14 +191,12 @@ Trash(List of disposable and non-disposable trash)
 *Game region/phase/time are ways of designating a particularly important place in the game.*
 
 - Music List (Ambient sound)
-  - *Game region/phase/time*: *Example 1*, *Example 2*
-  - *Game region/phase/time*: *Example 3*, *Example 4*
+    - TBA
   
 *Game Interactions are things that trigger SFX, like character movement, hitting a spiky enemy, collecting a coin.*
 
 - Sound List (SFX)
-  - *Game Interaction*: *Example 1*, *Example 2*
-  - *Game Interaction*: *Example 3*, *Example 4*
+  - TBA
 
 
 # Metadata
