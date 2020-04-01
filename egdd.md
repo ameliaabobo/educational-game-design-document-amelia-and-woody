@@ -118,7 +118,6 @@ object exists will deduct certain points from total. When the time is up, total 
 
 Trash(List different trash)
 Trash bin(3-5 different trash bins for different trash)
-*What other things are in the world that you need to design? These may or may not directly translate to actual objects and classes.*
 
 ## Core Gameplay Mechanics (Detailed)
 
