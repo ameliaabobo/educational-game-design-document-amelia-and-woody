@@ -66,10 +66,10 @@ If they click the correct objects, the point will be added, and vice versa.
 
 *Give some reasons why this game is not like every other game out there. Whether the learning objective is unique, the gameplay mechanics are new, or what. You should persuade the reader that your game is novel and worthy of development. Consider arguments that would be persuasive to a Venture Capitalist, Teacher, or Researcher. These might be focused on learning needs, too.*
 
-- The environmental protection is increasingly important to all of us.
-- We have to raise kids attention to environmental protection, the earlier the better.
-- The game is based on Delaware Estuary so people are familiar with it.
-- Game are kids friendly with Cartoons and animation.
+- As we learn more about the negative effects of humans, the importance of protecting our enviroment increases daily.
+- We have to teach children, from a young age, how to dispose of their trash properly.
+- Game are kids friendly with cartoons and animation while adults can also learn more about how to recycle and why it is important.
+- Everyone makes waste everyday and so this game is relevant to everyone. 
 
 # Player Interaction Patterns and Modes
 
