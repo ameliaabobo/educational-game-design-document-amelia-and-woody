@@ -116,40 +116,35 @@ object exists will deduct certain points from total. When the time is up, total 
 
 # Objects/Entities
 
-Robot(Player)
-Fishes(List of fish)
-Dangerous(List of Dangerous objects)
-Trash(List of disposable and non-disposable trash)
+Trash(List different trash)
+Trash bin(3-5 different trash bins for different trash)
 *What other things are in the world that you need to design? These may or may not directly translate to actual objects and classes.*
 
 ## Core Gameplay Mechanics (Detailed)
 
-- Different Trash type will be randomly generated from the list at the edge of the screen.
-- Vertical/Horizontal river flow by the animation of screen tilting.
-- Mouse activates trash picker with left/right click
-- Keyboard controlled robot that can move along the beach sid by pressing left/right arrow
-- Points increment/decrement on objects.
+- Different Trash type will be randomly generated from the list at the bottom of the screen.
+- 3 - 5 trash bins will be on the top side of the screen
+- Mouse drag trash with left click
+- if correct trash overlap with correct trash bin, you will earn point; otherwise lose point.
 
     
 ## Feedback
 
-Player can clearly see points add/deduct from the score board in the screen. Right/Wrong click will also turn your trash picker into green/red for seconds.
-The time will also be shown on the screen to display remaining time.
+Player can clearly see points add/deduct from the score board in the screen. Right/Wrong click will also turn trash bin into green/red for seconds.
 
 # Story and Gameplay
 
 ## Presentation of Rules
 
-The game will provide tutorial and explain each key's function and mouse function. It will also give demo about fish/trash identification.
+The game will provide tutorial and explain mouse function, how to earn point and how will you lose point. It will also give demo of a simple gameplay.
 
 ## Presentation of Content
 
-Once the wrong trash has been picked up, game will prompt a knowledge about why this should/shouldn't be considered in this category. 
+Once the wrong trash has been placed, game will prompt a knowledge about why this should/shouldn't be considered in this category. 
 
 ## Story (Brief)
 
-Delaware Estuary is a beautiful place. Recently, many reports said that the environment problem is becoming increasingly severe. We need to think a way to protect
-our estuary and the adorable sea creature!
+Trash sorting is a very important thing for the society, it can not only reduce the waste that should be recycled but also provide a cleaner environment. Sorting needs people to be more awared of which trash belongs to where, for example, a plastic bottle should be recycled and battery should not go to landfill.
 
 ## Storyboarding
 
@@ -159,30 +154,31 @@ our estuary and the adorable sea creature!
 
 ## Aethestics
 
-Game will be using many Cartoon objects and animations, kids will be happy to see many cute fishes and cool trash icon.
+Game will be using many realistic objects, people will be familiarize with the trash so they can easy recognize with their life experience.
 
 ## Graphical
 
-- Characters List
-  - Robot
-  - trash picker
-  - Fish_small
-  - Fish_big
-  - trash_plastic
-  - trash_metal
-  - trash_bag
-  - trash_battery
-  - trash_..(to be added)
-  - danger_shark
-  - danger_submarine
-  - danger_..(to be added)
+- Trash list
+  - battery
+  - computer
+  - plastic bottle
+  - plastic bag
+  - tissue
+  - food
+  - used syringes
+  - takeout bag
+  - wood
+  - electronic component  
+  - paper
+  - 
 - Textures:
-  - robot texture
-  - trash picker texture
+  - trash bin(red)
+  - trash bin(blue)
+  - trash bin(yellow)
+  - trash bin(green)
+  - trash bin(white)
 - Environment Art/Textures:
-  - beach
-  - sand
-  - sea
+  - landfill background
 
 
 ## Audio
@@ -191,12 +187,12 @@ Game will be using many Cartoon objects and animations, kids will be happy to se
 *Game region/phase/time are ways of designating a particularly important place in the game.*
 
 - Music List (Ambient sound)
-    - TBA
+    - TBD
   
 *Game Interactions are things that trigger SFX, like character movement, hitting a spiky enemy, collecting a coin.*
 
 - Sound List (SFX)
-  - TBA
+  - TBD
 
 
 # Metadata
