@@ -1,30 +1,28 @@
 # Game Name
-Protect the Estuary 
+To recycle or not to recycle?
+
 ## Elevator Pitch
 
-Delaware Bay is a very beautiful place for living creature and human being. However this place is polluted every second, kids should have awareness on what trash to remove and keep the sea creature alived.
+The United States Environmental Protection Agency estimates that 75% of American waste stream is recyclable but we only recycle about 30% of it. You will learn about the types of recycling with its associated color and what is acceptable in each category. Save the planet one can at a time. 
+
 
 ## Influences (Brief)
 
 - *Influence #1*:
-  - Medium: Awareness
-  - Explanation: By playing this game, people will raise the recognition about keeping trash out of the estuary.
+  - Medium: Johns Hopkins University
+  - Explanation: Each trashcan is separated into three containers (green for recycling, yellow for compost, and gray for incineration).
 - *Influence #2*:
-  - Medium: Kids' action
-  - Explanation: Kids have clearer mind of what kind of garbage to sort and what to recycle
-- *Influence #3*:
-  - Medium: Grown-ups
-  - Explanation: grownups will have some information on recycles and thrownaways
+  - Medium: Personal knowledge/experiences
+  - Explanation: We were not taught the different types of recycling and also the University of Delaware does not practice categorizes waste. 
+
 
 ## Core Gameplay Mechanics (Brief)
 
 *Give a very high-level description of any core gameplay mechanics*
 
 - Different Trash type.(Recycle/chemical/Disposable/Non-Disposable)
-- Vertical/Horizontal river flow along with different trash and living creatures.
-- Mouse activates trash picker with animation.
-- Keyboard controlled robot that can move along the beach side.
-- Points increment/decrement on objects.
+- Points increment if object is put into the correct container
+- Click/drag mouse to select object and specify container
 - Knowledge prompt for wrong items collecting.
 
 # Learning Aspects
@@ -37,7 +35,7 @@ Identift whether the obejct is a threatened to other fish.(Shark, Submarine, oil
 
 ## Target Audiences
 
-Kids 1 - 9 grade
+Ages 6+
 
 ## Target Contexts
 
@@ -49,9 +47,8 @@ Kids 1 - 9 grade
 
 *Remember, Learning Objectives are NOT simply topics. They are statements of observable behavior that a learner can do after the learning experience. You cannot observe someone "understanding" or "knowing" something.*
 
-- kids will sort the garbage in correct type after playing game.
-- Some of them will start collecting the garbage around them.
-- Some kids might go to estuary and protect the environment.
+- Determine correct disposal for waste.
+- Identify recycling options. 
 
 ## Prerequisite Knowledge
 
