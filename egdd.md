@@ -18,8 +18,6 @@ The United States Environmental Protection Agency estimates that 75% of American
 
 ## Core Gameplay Mechanics (Brief)
 
-*Give a very high-level description of any core gameplay mechanics*
-
 - Different Trash type.(Recycle/chemical/Disposable/Non-Disposable)
 - Points increment if object is put into the correct container
 - Click/drag mouse to select object and specify container
@@ -31,8 +29,6 @@ The United States Environmental Protection Agency estimates that 75% of American
 
 Identify which trash is disposable and which is non-disposable.
 
-Identift whether the obejct is a threatened to other fish.(Shark, Submarine, oil tank..) 
-
 ## Target Audiences
 
 Ages 6+
@@ -41,11 +37,7 @@ Ages 6+
 
 1 - 9 grade courses
 
-*Describe what kinds of formal and informal learning contexts this will be used in (e.g., courses, k-12 computer labs during free time).*
-
 ## Learning Objectives
-
-*Remember, Learning Objectives are NOT simply topics. They are statements of observable behavior that a learner can do after the learning experience. You cannot observe someone "understanding" or "knowing" something.*
 
 - Determine correct disposal for waste.
 - Identify recycling options. 
@@ -54,7 +46,7 @@ Ages 6+
 
 *What do they need to know prior to trying this game?*
 
-- Know how to click mouse and press key.
+- Know how to click mouse .
 - Can read the text and image.
 
 ## Assessment Measures
@@ -64,10 +56,8 @@ If they click the correct objects, the point will be added, and vice versa.
 
 # What sets this project apart?
 
-- The environmental protection is increasingly important to all of us.
-- We have to raise kids attention to environmental protection, the earlier the better.
-- The game is based on Delaware Estuary so people are familiar with it.
-- Game are kids friendly with Cartoons and animation.
+- The environmental protection and waste sorting is increasingly important to all of us.
+- We have to raise kids attention to waste soring and environmental protection, the earlier the better.
 
 # Player Interaction Patterns and Modes
 
