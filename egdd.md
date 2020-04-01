@@ -79,8 +79,8 @@ One player can play at once, but two or three can watch and give suggestion.
 
 ## Player Modes
 
-- Tutorial: Explain which object is recycle and which is non-disposable, and different type of fishes are also provided.
-- Game Play: Respawn different game objects for player to interact.
+- Tutorial: Display trash from each category and give a demo of gameplay.
+- Game Play: Respawn different type of trash for player to interact.
 - Result: Summarize player's performace and give knowledge accordingly.
 
 # Gameplay Objectives
@@ -99,8 +99,9 @@ One player can play at once, but two or three can watch and give suggestion.
     - Alignment: Users will understand those things could place threat to estuary.
 # Procedures/Actions
 
-Keyboard: left/right arrow that moves player along the beach.
-Mouse: Left/right click to achieve different function.
+Mouse: Left click to drag the trash.
+Trash: Movable entities that can be dragged.
+Trash bin: Detect if the correct trash is overlapped with bin.
 
 # Rules
 Game will respawn varies obejcts sequently from screen edge to the other side. Player need to collect as many correct objects in a limited time, 
