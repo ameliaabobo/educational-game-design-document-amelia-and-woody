@@ -56,17 +56,10 @@ If they click the correct objects, the point will be added, and vice versa.
 
 # What sets this project apart?
 
-<<<<<<< HEAD
-- The environmental protection and waste sorting is increasingly important to all of us.
-- We have to raise kids attention to waste soring and environmental protection, the earlier the better.
-=======
-*Give some reasons why this game is not like every other game out there. Whether the learning objective is unique, the gameplay mechanics are new, or what. You should persuade the reader that your game is novel and worthy of development. Consider arguments that would be persuasive to a Venture Capitalist, Teacher, or Researcher. These might be focused on learning needs, too.*
-
 - As we learn more about the negative effects of humans, the importance of protecting our enviroment increases daily.
 - We have to teach children, from a young age, how to dispose of their trash properly.
 - Game are kids friendly with cartoons and animation while adults can also learn more about how to recycle and why it is important.
 - Everyone makes waste everyday and so this game is relevant to everyone. 
->>>>>>> 1db17ca772cf8120aa2229e6cc0a4f1994e27bcd
 
 # Player Interaction Patterns and Modes
 
