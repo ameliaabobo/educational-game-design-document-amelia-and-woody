@@ -67,8 +67,6 @@ If they click the correct objects, the point will be added, and vice versa.
 
 # What sets this project apart?
 
-*Give some reasons why this game is not like every other game out there. Whether the learning objective is unique, the gameplay mechanics are new, or what. You should persuade the reader that your game is novel and worthy of development. Consider arguments that would be persuasive to a Venture Capitalist, Teacher, or Researcher. These might be focused on learning needs, too.*
-
 - The environmental protection is increasingly important to all of us.
 - We have to raise kids attention to environmental protection, the earlier the better.
 - The game is based on Delaware Estuary so people are familiar with it.
@@ -80,11 +78,7 @@ If they click the correct objects, the point will be added, and vice versa.
 
 One player can play at once, but two or three can watch and give suggestion.
 
-*Describe how people play your game, how many players are involved at once, how they interact with the system works, etc.*
-
 ## Player Modes
-
-*Your game has one or more player modes. Describe each discrete mode, considering things like menus too. Generally describe the transitions between modes too.*
 
 - Tutorial: Explain which object is recycle and which is non-disposable, and different type of fishes are also provided.
 - Game Play: Respawn different game objects for player to interact.
