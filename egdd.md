@@ -74,19 +74,12 @@ One player can play at once, but two or three can watch and give suggestion.
 - Result: Summarize player's performace and give knowledge accordingly.
 
 # Gameplay Objectives
+- Identify color of specified recycling type:
+    - Description: Given a recycling type (i.e. plastic, class, compost), click on the correct color of the corresponding container would be.
+- Identify correct container for waste:
+    - Description: Click and drag the piece of waste given to the appropriate container. 
 
-- Collect the disposable with left-click:
-    - Description: When you see the disposable items, left click to collect the items so it can be sent to recycle.
-    - Alignment: The correct objects will be recognized and user will understand what to recycle.
-- Collect the non-disposable with right-click:
-    - Description: When you see the disposable items, right click to collect the items so it can be sent to processing area.
-    - Alignment: The correct objects will be recognized and user will understand what not to recycle.
-- Let go of the normal fish:
-    - Description: When you see the normal fish, just do nothing and let go.
-    - Alignment: Users will know not to harm the normal fish.
-- Catch the dangerous things:
-    - Description: When you see the dangerous things, right click it like any other non-disposable things, this will deduct you more points than trash.
-    - Alignment: Users will understand those things could place threat to estuary.
+
 # Procedures/Actions
 
 Mouse: Left click to drag the trash.
