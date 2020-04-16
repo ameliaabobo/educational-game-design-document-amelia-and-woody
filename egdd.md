@@ -1,5 +1,6 @@
 # Game Name
-To recycle or not to recycle?
+
+Recycle or not Recycle?
 
 ## Elevator Pitch
 
