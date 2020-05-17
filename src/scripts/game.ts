@@ -8,7 +8,7 @@ const DEFAULT_HEIGHT = 400;
 
 
 const config: GameConfig = {
-    backgroundColor: '#ffffff',
+    backgroundColor: 0x000000,
     scale: {
         parent: 'phaser-game',
         mode: Phaser.Scale.FIT,
