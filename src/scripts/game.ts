@@ -6,6 +6,9 @@ import GameConfig = Phaser.Types.Core.GameConfig;
 const DEFAULT_WIDTH = 400;
 const DEFAULT_HEIGHT = 400;
 
+var gameSettings = {
+    playerSpeed: 200,
+}
 
 const config: GameConfig = {
     backgroundColor: 0x000000,
