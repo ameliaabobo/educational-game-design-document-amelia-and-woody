@@ -12,8 +12,11 @@ export default class MainScene extends Phaser.Scene {
   private cursorKeys: any;
   private gameSettings: any;
   private spacebar: any;
-  private beam: any;
+  //private beam: any;
   private projectiles: any;
+  private enemies: any;
+  private scoreLabel: any;
+  private score;
 
   constructor() {
     super({ key: 'MainScene' });
@@ -34,9 +37,10 @@ export default class MainScene extends Phaser.Scene {
     //this.ship3 = this.add.image(250, 200, "ship3");
     this.ship3 = this.add.sprite(250, 200, "ship3");
 
-    //this.add.text(20, 20, "Playing game", {
-    //  font: "25px Arial", fill: "yellow"
-    //});
+    this.enemies = this.physics.add.group();
+    this.enemies.add(this.ship1);
+    this.enemies.add(this.ship2);
+    this.enemies.add(this.ship3);
 
     this.ship1.play("ship1_anim");
     this.ship2.play("ship2_anim");
@@ -77,6 +81,29 @@ export default class MainScene extends Phaser.Scene {
     this.spacebar = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
     this.projectiles = this.add.group();
 
+    this.physics.add.collider(this.projectiles, this.powerUps, function(projectile, powerUp){
+      projectile.destroy();
+    });
+
+    this.physics.add.overlap(this.player, this.powerUps, this.pickPowerUp, null, this);
+
+    this.physics.add.overlap(this.player, this.enemies, this.hurtPlayer, null, this);
+
+    this.physics.add.overlap(this.projectiles, this.enemies, this.hitEnemy, null, this);
+
+    var graphics = this.add.graphics();
+    graphics.fillStyle(0x000000, 1);
+    graphics.beginPath();
+    graphics.moveTo(0,0);
+    graphics.lineTo(400, 0);
+    graphics.lineTo(400, 20);
+    graphics.lineTo(0,20);
+    graphics.lineTo(0,0);
+    graphics.closePath();
+    graphics.fillPath();
+
+    this.score = 0;
+    this.scoreLabel = this.add.bitmapText(10, 5, "pixelFont", "SCORE", 16);
 
     //this.add.text(20, 20, "Playing game", {
     //  font: "25px Arial",
@@ -84,6 +111,31 @@ export default class MainScene extends Phaser.Scene {
     //});
 
     //this.exampleObject = new ExampleObject(this, 0, 0);
+  }
+
+  zeroPad(number, size){
+    var stringNumber = String(number);
+    while(stringNumber.length < (size || 2)){
+      stringNumber = "0" + stringNumber;
+    }
+    return stringNumber;
+  }
+
+  hurtPlayer(player,enemy){
+    this.resetShipPos(enemy);
+    player.x = 192;
+    player.y = 336;
+  }
+
+  hitEnemy(projectile, enemy){
+    projectile.destroy();
+    this.resetShipPos(enemy);
+    this.score += 15;
+    this.scoreLabel.text = "SCORE" + this.score;
+  }
+
+  pickPowerUp(player, powerUp){
+    powerUp.disableBody(true, true);
   }
 
   moveShip(ship,speed){
@@ -122,8 +174,9 @@ export default class MainScene extends Phaser.Scene {
   }
 
   shootBeam(){
-    //var beam = this.physics.add.sprite(this.player.x, this.player.y, "beam");
-    var beam = new Beam(this);
+    var beam = this.physics.add.sprite(this.player.x, this.player.y, "beam");
+    //var beam = new Beam(this);
+    //this.projectiles.add(beam);
   }
 
   update() {
