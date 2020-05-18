@@ -17,6 +17,7 @@ export default class MainScene extends Phaser.Scene {
   private enemies: any;
   private scoreLabel: any;
   private score;
+  private scoreFormated: any;
 
   constructor() {
     super({ key: 'MainScene' });
@@ -27,6 +28,7 @@ export default class MainScene extends Phaser.Scene {
     //this.background = this.add.tileSprite(0, 0, this.config.width, this.config.width, "background");
     this.background = this.add.tileSprite(0, 0, 400, 400, "background");
     this.background.setOrigin(0,0);
+    
 
     //this.ship1 = this.add.image(150, 200, "ship");
     this.ship1 = this.add.sprite(150, 200, "ship");
@@ -56,7 +58,7 @@ export default class MainScene extends Phaser.Scene {
 
     this.powerUps = this.physics.add.group();
 
-    var maxObjects = 4;
+    var maxObjects = 2;
     for(var i=0; i <= maxObjects; i++){
       var powerUp = this.physics.add.sprite(16, 16, "power-up");
       this.powerUps.add(powerUp);
@@ -68,7 +70,7 @@ export default class MainScene extends Phaser.Scene {
         powerUp.play("gray");
       }
 
-      powerUp.setVelocity(100, 100);
+      powerUp.setVelocity(50, 50);
       powerUp.setCollideWorldBounds(true);
       powerUp.setBounce(1);
     }
@@ -79,6 +81,7 @@ export default class MainScene extends Phaser.Scene {
     this.player.setCollideWorldBounds(true);
 
     this.spacebar = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
+    
     this.projectiles = this.add.group();
 
     this.physics.add.collider(this.projectiles, this.powerUps, function(projectile, powerUp){
@@ -103,7 +106,9 @@ export default class MainScene extends Phaser.Scene {
     graphics.fillPath();
 
     this.score = 0;
-    this.scoreLabel = this.add.bitmapText(10, 5, "pixelFont", "SCORE", 16);
+    //this.scoreLabel = this.add.bitmapText(10, 5, "pixelFont", "SCORE", 16);
+    var scoreFormated = this.zeroPad(this.score, 6);
+    this.scoreLabel = this.add.bitmapText(10, 5, "pixelFont", "SCORE", scoreFormated, 16);
 
     //this.add.text(20, 20, "Playing game", {
     //  font: "25px Arial",
@@ -131,7 +136,9 @@ export default class MainScene extends Phaser.Scene {
     projectile.destroy();
     this.resetShipPos(enemy);
     this.score += 15;
-    this.scoreLabel.text = "SCORE" + this.score;
+    //this.scoreLabel.text = "SCORE" + this.score;
+    this.scoreFormated = this.zeroPad(this.score, 6);
+    this.scoreLabel.text = "SCORE" + this.scoreFormated;
   }
 
   pickPowerUp(player, powerUp){
@@ -174,8 +181,8 @@ export default class MainScene extends Phaser.Scene {
   }
 
   shootBeam(){
-    var beam = this.physics.add.sprite(this.player.x, this.player.y, "beam");
-    //var beam = new Beam(this);
+    //var beam = this.physics.add.sprite(this.player.x, this.player.y, "beam");
+    var beam = new Beam(this);
     //this.projectiles.add(beam);
   }
 
@@ -194,7 +201,7 @@ export default class MainScene extends Phaser.Scene {
     }
 
     for(var i=0; i < this.projectiles.getChildren().length; i++){
-      var beam = this.projectiles.getChildren();
+      var beam = this.projectiles.getChildren()[i];
       beam.update();
     }
 
